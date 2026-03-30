@@ -118,7 +118,7 @@ export const buscarPorId = async (req, res) => {
  * @param {integer} id.path.required
  * @param {ReqBodyExemplo} request.body.required
  *
- * @return 201 - Exemplo atualizado com sucesso
+ * @return 200 - Exemplo atualizado com sucesso
  * @return 400 - Dados inválidos ou campos obrigatórios não informados
  * @return 404 - Exemplo não foi encontrado
  * @return 500 - Erro interno do servidor
